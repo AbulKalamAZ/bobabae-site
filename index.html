@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- SwiperJS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Page Title -->
+    <title>Homepage | BobaBae</title>
+
+  </head>
+
+  <body>
+    <!-- Hero Section -->
+
+    <header 
+      class="header-section bg-primary"
+      data-aos="slide-down"
+      data-aos-duration="400">
+      <div class="container-xxl">
+        <nav
+          class="nav-bar py-2 py-lg-4 d-flex justify-content-between align-items-center position-relative"
+        >
+          <div 
+            class="logo"
+            data-aos="fade-right"
+            data-aos-duration="1000">
+            <a href="#">
+              <img src="./assets/logo_white.png" alt="site-logo"/>
+            </a>
+          </div>
+
+          <!-- Desktop Nav -->
+
+          <ul
+            class="nav-links mb-0 list-unstyled d-none d-lg-flex justify-content-around align-items-center "
+          >
+            <li 
+              class="link-item my-2 ms-5"
+              data-aos="fade-left"
+              data-aos-duration="1000">
+              <a href="#" class="text-white text-decoration-none">Home</a>
+            </li>
+            <li 
+              class="link-item my-2 ms-5"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="100">
+              <a href="#about" class="text-white text-decoration-none">About</a>
+            </li>
+            <li 
+              class="link-item my-2 ms-5"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="200">
+              <a href="#menu" class="text-white text-decoration-none">Menu</a>
+            </li>
+            <li 
+              class="link-item my-2 ms-5"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="300">
+              <a href="#order" class="text-white text-decoration-none">Order Now</a>
+            </li>
+            <li 
+              class="link-item my-2 ms-5"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="400">
+              <a href="#location" class="text-white text-decoration-none">Location</a>
+            </li>
+            <li 
+              class="link-item my-2 ms-5"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="500">
+              <a href="#social" class="text-white text-decoration-none">Social Media</a>
+            </li>
+            <li 
+              class="link-item my-2 ms-5"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="500">
+              <a href="#gallery" class="text-white text-decoration-none">Gallery</a>
+            </li>
+            <li 
+              class="link-item my-2 ms-5"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="500">
+              <a href="#news" class="text-white text-decoration-none">News</a>
+            </li>
+            <li 
+              class="link-item my-2 ms-5"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="500">
+              <a href="#contact" class="text-white text-decoration-none">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Hamburger -->
+
+          <div class="burger-menu d-flex d-lg-none justify-content-center align-items-center">
+            <div class="strip burger-strip-5">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+
+
+          <!-- Off Canvas Nav -->
+
+          <ul class="off-canvas-menu list-unstyled pt-8 position-fixed d-flex d-lg-none flex-column justify-content-start align-items-center">
+            
+            <li class="link-item mb-4 me-4 d-flex justify-content-end align-items-center">
+              <a href="#" class="close-off-canvas">
+            </li>
+            <li class="link-item my-2 mx-4 text-center">
+              <a href="#" class="text-white fs-2 text-decoration-none">Home</a>
+            </li>
+            <li class="link-item my-2 mx-4 text-center">
+              <a href="#about" class="text-white fs-2 text-decoration-none">About</a>
+            </li>
+            <li class="link-item my-2 mx-4 text-center">
+              <a href="#menu" class="text-white fs-2 text-decoration-none">Menu</a>
+            </li>
+            <li class="link-item my-2 mx-4 text-center">
+              <a href="#order" class="text-white fs-2 text-decoration-none">Order Now</a>
+            </li>
+            <li class="link-item my-2 mx-4 text-center">
+              <a href="#location" class="text-white fs-2 text-decoration-none">Location</a>
+            </li>
+            <li class="link-item my-2 mx-4 text-center">
+              <a href="#social" class="text-white fs-2 text-decoration-none">Social Media</a>
+            </li>
+            <li class="link-item my-2 mx-4 text-center">
+              <a href="#gallery" class="text-white fs-2 text-decoration-none">Gallery</a>
+            </li>
+            <li class="link-item my-2 mx-4 text-center">
+              <a href="#news" class="text-white fs-2 text-decoration-none">News</a>
+            </li>
+            <li class="link-item my-2 mx-4 text-center">
+              <a href="#contact" class="text-white fs-2 text-decoration-none">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+
+    <main>
+      <!-- Hero Section -->
+
+      <section
+        class="hero-section d-flex justify-content-center align-items-center position-relative"
+        data-aos="fade-in"
+        data-aos-duration="1500"
+      >
+      <div class="hero-bg-one w-100 h-100"></div>
+        
+      </section>
+
+      <!-- About Us -->
+
+      <section id="about" class="about-us px-4 px-lg-0 py-0 py-lg-8 position-relative">
+
+        <!-- Container -->
+        <div class="container-lg py-8">
+          <div 
+            class="section-title-wrapper" 
+            data-aos="fade-right" 
+            data-aos-duration="700"
+            data-aos-delay="200">
+            <h2 class="section-title fs-48 fw-bolder text-primary mb-4 text-center text-lg-start">About Us</h2>
+          </div>
+
+          <div class="section-content row">
+            <div
+              class="section-text-wrapper col-12 col-lg-6 d-flex justify-content-start align-items-center mb-6 mb-lg-0"
+            >
+              <div 
+                class="pe-0 pe-lg-8" 
+                data-aos="fade-right" 
+                data-aos-duration="700"
+                data-aos-delay="200">
+                <p class="fs-18 text-center text-lg-start">
+                  At <b>BobaBae</b> we're passionate about bringing you the best bubble tea in the UAE. We use only the best ingredients and authentic recipes to create our delicious and refreshing drinks.
+                </p>
+
+                <p class="fs-18 text-center text-lg-start">
+                  We offer a wide variety of flavours and toppings to choose from, so you're sure to find something to your taste. Whether you're a fan of classic bubble milk tea or you're looking for something more adventurous, we have somthing for everyone. We also offer a variety of vegan and gluten-free options.
+                </p>
+                <p class="fs-18 text-center text-lg-start">
+                  We're committed to providing our customers with the best possible experience. That's why we use only the highest quality ingredients and our staff is always happy to help you create the perfect bubble tea.
+                </p>
+              </div>
+            </div>
+            <div
+              class="section-img-wrapper ps-3 ps-lg-8 col-12 col-lg-6 d-flex justify-content-center align-items-center"
+              data-aos="fade-right" 
+              data-aos-duration="770"
+            >
+              <div class="section-img">
+                <img src="./assets/about_img.jpg" alt="about us img" style="width: 350px; border-radius: 1rem" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Menu -->
+
+      <section id="menu" class="our-menu bg-primary px-4 px-lg-0 py-0 py-lg-8 position-relative">
+
+        <!-- Container -->
+        <div class="container-lg py-8">
+          <div 
+            class="section-title-wrapper" 
+            data-aos="fade-right" 
+            data-aos-duration="700"
+            data-aos-delay="200">
+            <h2 class="section-title fs-48 fw-bolder text-white mb-4 text-center text-lg-start">Our Menu</h2>
+          </div>
+
+          <div class="section-content row">
+            <div
+              class="section-text-wrapper col-12 col-lg-6 d-flex justify-content-start align-items-start mb-6 mb-lg-0"
+            >
+              <div 
+                class="pe-0 pe-lg-8" 
+                data-aos="fade-right" 
+                data-aos-duration="700"
+                data-aos-delay="200">
+                <p class="fs-18 text-white text-center text-lg-start">
+                  Explore our offerings and let your taste buds dance with joy!
+                </p>
+              </div>
+            </div>
+            <div
+              class="menu-section ps-3 ps-lg-8 col-12 col-lg-6 d-flex justify-content-center align-items-center"
+              data-aos="fade-right"
+              data-aos-duration="770"
+            >
+              <img src="./assets/bobabae_menu.jpg" alt="boba-bae-menu" width="350">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Order Now -->
+
+      <section id="order" class="order-now px-4 px-lg-0 py-0 py-lg-8">
+        <div class="container-lg py-8">
+          <div class="section-header d-flex flex-column justify-content-center align-items-center">
+            <div class="section-title">
+              <h2 
+                class="text-center fs-48 fw-bolder text-primary mb-4"
+                data-aos="fade-up"
+                data-aos-duration="700">Order Now</h2>
+            </div>
+            <div 
+              class="section-sub-title text-center mb-3"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="150">
+              <p class="fs-18">Craving a burst of flavor and a dose of boba bliss? You're just a click away from indulging in the extraordinary offerings of <b>BOBABAE</b>. Ordering us from Talabat & Deliveroo is as easy as sipping your favorite boba creation.
+              </p>
+            </div>
+          </div>
+
+          <div class="delivery-logo-conteiner d-flex justify-content-center align-items-center gap-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="500">
+            <a href="https://www.talabat.com/uae/boba-bae" target="_blank" class="delivery-talabat d-inline-block rounded-4" style="background-color: #f0f0f0; width: 250px; height: 100px;">
+              <img src="./assets/talabat.svg" alt="talabat-logo" style="width: 100%; height: 100%">
+            </a>
+            <a href="https://deliveroo.ae/menu/abu-dhabi/saadiyat/boba-bae-bubble-tea" target="_blank" class="delivery-deliveroo d-inline-block rounded-4" style="background-color: #f0f0f0; width: 250px; height: 100px;">
+              <img src="./assets/deliveroo.svg" alt="deliveroo-logo" style="width: 100%; height: 100%">
+            </a>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Our Location -->
+
+      <section id="location" class="our-location bg-primary px-4 px-lg-0 py-0 py-lg-8 position-relative">
+
+        <!-- Container -->
+        <div class="container-lg py-8">
+          <div 
+            class="section-title-wrapper" 
+            data-aos="fade-right" 
+            data-aos-duration="700"
+            data-aos-delay="200">
+            <h2 class="section-title fs-48 text-white fw-bolder text-primary mb-4 text-center text-lg-start">Our Location
+            </h2>
+          </div>
+
+          <div class="section-content row">
+            <div
+              class="section-text-wrapper col-12 col-lg-6 d-flex justify-content-start align-items-start mb-6 mb-lg-0"
+            >
+              <div 
+                class="pe-0 pe-lg-8" 
+                data-aos="fade-right" 
+                data-aos-duration="700"
+                data-aos-delay="200">
+                <p class="fs-18 text-white text-center text-lg-start">
+                  Quench your thirst for flavor with our delightful bubble teas. Visit us and add some pop to your day!
+                </p>
+              </div>
+            </div>
+            <div
+              class="location-section ps-3 ps-lg-8 col-12 col-lg-6 d-flex justify-content-center align-items-center"
+              data-aos="fade-right" 
+              data-aos-duration="770"
+            >
+            <!-- Embedding Google Map -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d453.736733723613!2d54.433163775456784!3d24.523749324078413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e677d9a03435b%3A0x45df537b22b8f10e!2sBlacksmith%20Coffee%20Company%2C%20Al%20Saadiyat%20Island%20%2C%20Abu%20Dhabi!5e0!3m2!1sbn!2sbd!4v1700060744318!5m2!1sbn!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Social Media -->
+
+      <section id="social" class="social-media px-4 px-lg-0 py-0 py-lg-8">
+        <div class="container-lg py-8">
+          <div class="section-header d-flex flex-column justify-content-center align-items-center">
+            <div class="section-title">
+              <h2 
+                class="text-center fs-48 fw-bolder text-primary mb-4"
+                data-aos="fade-up"
+                data-aos-duration="700">Social Media</h2>
+            </div>
+            <div 
+              class="section-sub-title text-center mb-3"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="150">
+              <p class="fs-18">Follow us on social media to stay in the loop with the latest boba trends, exclusive offers, and behind-the-scenes glimpses of the <b>BOBABAE</b> experience. Join our online community and become part of the boba-loving family!
+              </p>
+            </div>
+          </div>
+
+          <div class="social-media-icon-conteiner d-flex justify-content-center align-items-center gap-4">
+            <a href="https://www.facebook.com/bobabaeae" target="_blank" class="social-facebook" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+              <img src="./assets/facebook.png" alt="facebook-logo" style="width: 60px; height: 60px">
+            </a>
+            <a href="https://instagram.com/bobabae.ae?igshid=enZoMWo0OHl1OGg0" target="_blank" class="social-instagram" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600">
+              <img src="./assets/instagram.png" alt="instagram-logo" style="width: 60px; height: 60px">
+            </a>
+            </a>
+            <a href="https://www.tiktok.com/@bobabae.ae?_t=8hMbAmacqPp&_r=1" target="_blank" class="social-tiktok" data-aos="fade-up" data-aos-duration="500" data-aos-delay="700">
+              <img src="./assets/tiktok.png" alt="tiktok-logo" style="width: 60px; height: 60px">
+            </a>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Gallery -->
+
+      <section id="gallery" class="gallery-section bg-primary px-2 py-0 py-lg-8">
+        <div class="container-lg py-8">
+          <div class="section-header d-flex flex-column justify-content-center align-items-center">
+              <h2 
+                class="section-title text-white text-center fs-48 fw-bolder text-primary mb-4"
+                data-aos="fade-up"
+                data-aos-duration="700">Gallery</h2>
+              <p 
+                class="section-sub-title text-white text-center fs-18 mb-5"
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay="100">
+                Dive into the vibrant world of <b>BOBABAE</b> through our carefully curated gallery. Each image captures the essence of our boba haven, showcasing the artistry, creativity, and pure joy that comes with every sip
+              </p>
+          </div>
+          <div class="gallery-slider-container" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
+            <div class="swiper gallerySwiper">
+              <div id="insta-feed" class="swiper-wrapper"></div>
+
+              <div class="swiper-pagination"></div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- News -->
+
+      <section id="news" class="our-news px-4 px-lg-0 py-0 py-lg-8">
+        <div class="container-lg py-8">
+          <div class="section-header d-flex flex-column justify-content-center align-items-center">
+            <div class="section-title">
+              <h2 
+                class="text-center fs-48 fw-bolder text-primary mb-4"
+                data-aos="fade-up"
+                data-aos-duration="700">News & Events</h2>
+            </div>
+            <div 
+              class="section-sub-title text-center mb-3"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="150">
+              <p class="fs-18">
+                Explore our News & Events section to discover exciting updates, special promotions, and upcoming gatherings
+              </p>
+            </div>
+          </div>
+          <div class="news-container">
+            <div class="row mb-4 gap-4 gap-md-0" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                  <div class="card-image mb-2">
+                    <img src="./assets/taste-event.jpeg" width="100%" alt="news thumbnail">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold mb-2">Boba Bae at Taste Abu Dhabi</h5>
+                    <p class="card-text">
+                      We had an absolute blast serving our refreshing bubble teas at Taste Abu Dhabi! It was a great <span class="dots">...</span> <span class="invisible-text">opportunity for us to showcase some of our new flavors, like our crème brulee and our marshmallow fluff. The crowds flocked to our stall over the three days and we made so many new friends. We are confident Taste will become a regular for us and we are looking forward to serving you at the next upcoming events.</span></p>
+                    <button class="btn btn-primary show-more" data-serial="1">Show more</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                  <div class="card-image mb-2">
+                    <img src="./assets/location-event.jpeg" width="100%" alt="news thumbnail">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold mb-2">New location: AUD</h5>
+                    <p class="card-text">
+                      We are delighted to announce we are now coming to American University in Dubai. It is our second <span class="dots">...</span> <span class="invisible-text">permanent fixture and along with the location, there will be some exciting new items on our menu! These will include the already debuted crème brulee and marshmallow fluff, but also we will be Introducing soft-serve ice cream, as well as some cakes and pastries by our very own pastry chef Noor! We look forward to meeting the new students and faculty alike and becoming a part of the AUD family!</span></p>
+                      <button class="btn btn-primary show-more" data-serial="2">Show more</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                  <div class="card-image mb-2">
+                    <img src="./assets/MOTN-event.jpeg" width="100%" alt="news thumbnail">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold mb-2">MOTN Festival</h5>
+                    <p class="card-text">
+                      A 25-day event through December is going to be our most exciting project yet. We are expecting over 200, <span class="dots">...</span> <span class="invisible-text">000 people to attend the entire event and would be happy if we could serve half of those our delicious bobas. We will not only be serving our regular menu here, but also experimenting with some mojitos and pina coladas, so make sure to come by and see what concoctions we whizz up. Along with this, we will have some cool merchandise which includes tote bags and some t-shirts you can add some cool branded patches to, using our press machine. With a cool seating area, you can relax late into the night!</span></p>
+                    <button class="btn btn-primary show-more" data-serial="3">Show more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Uncomment the follwing code to add more news & events -->
+
+            <!-- <div class="row gap-4 gap-md-0" data-aos="fade-up" data-aos-duration="700" data-aos-delay="350">
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Some random news</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae explicabo labore accusamus vel soluta eligendi voluptates recusandae.</p>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Some random events</h5>
+                    <p class="card-text">Adipisci architecto dolore debitis qui cupiditate eveniet necessitatibus, odit tempora quae, optio quod. debitis qui cupiditate tempora quae, optio quod</p>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Some random news</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae explicabo labore accusamus vel soluta eligendi voluptates recusandae</p>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Us -->
+
+      <section id="contact" class="contact-us py-0 py-lg-8">
+        <div class="container-lg py-8">
+          <div class="section-header d-flex flex-column justify-content-center align-items-center">
+              <h2 
+                class="section-title text-center fs-48 fw-bolder text-primary mb-4"
+                data-aos="fade-down"
+                data-aos-duration="700"
+                data-aos-delay="400">Get in touch</h2>
+              <p 
+                class="section-sub-title text-center fs-18 mb-5"
+                data-aos="fade-down"
+                data-aos-duration="700"
+                data-aos-delay="200">
+                Have a question, a suggestion, or just want to share your boba love? We're here to hear from you!
+              </p>
+          </div>
+          <div 
+            class="contact-form-container row gx-4 mb-3 px-4 px-lg-8"
+            data-aos="fade-down"
+            data-aos-duration="700">
+            <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                <input type="text" class="form-control py-3" id="first-name" placeholder="First Name*">
+            </div>
+            <div class="col-12 col-lg-6">
+                <input type="text" class="form-control py-3" id="last-name" placeholder="Last Name*">
+            </div>
+            <div class="col-12">
+                <input type="email" class="form-control py-3 my-4" id="email" placeholder="Email*">
+            </div>
+            
+            <div class="col-12">
+              <textarea class="form-control" placeholder="Your Message" id="contact-message" style="height: 150px"></textarea>
+            </div>
+
+          </div>
+
+          <div class="submit-btn d-flex justify-content-center align-items-center mt-4">
+            <button class="btn btn-primary px-4 py-2 fw-bold text-white">Submit</button>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+
+    <footer class="bg-primary px-0 px-lg-12 pt-8 pb-lg-4">
+      <div class="container-lg py-3">
+        <div class="row">
+          <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-start align-items-center align-items-lg-start mb-8 mb-lg-0">
+            <div class="logo-container d-flex flex-column justify-content-center align-items-center">
+              <a href="#" class="d-inline-block mb-4">
+                <img src="./assets/logo_footer.png"  width="150" alt="site-logo" />
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="row px-4 px-lg-0">
+              <div class="col-12 col-lg-4 d-flex flex-column justify-content-start align-items-center align-items-lg-end text-white mb-6 mb-lg-0">
+                <div class="text-center text-lg-start">
+                  <span class="d-inline-block fs-4 fw-normal mb-4">Navigation</span>
+                  <ul class="list-unstyled">
+                    <li class="mb-3">
+                      <a class="text-decoration-none fs-18 fw-normal text-info" href="#about">
+                        About Us
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="text-decoration-none fs-18 fw-normal text-info" href="#menu">
+                        Our Menu
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="text-decoration-none fs-18 fw-normal text-info" href="#gallery">
+                        Gallery
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="text-decoration-none fs-18 fw-normal text-info" href="#news">
+                        News
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 d-flex flex-column justify-content-start align-items-center align-items-lg-end text-white mb-6 mb-lg-0">
+                <div class="text-center text-lg-start">
+                  <span class="d-inline-block fs-4 fw-normal mb-4">Connected</span>
+                  <ul class="list-unstyled">
+                    <li class="mb-3">
+                      <a class="text-decoration-none fs-18 fw-normal text-info" href="https://www.facebook.com/bobabaeae" target="_blank">
+                        Facebook
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="text-decoration-none fs-18 fw-normal text-info" href="https://instagram.com/bobabae.ae" target="_blank">
+                        Instagram
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="text-decoration-none fs-18 fw-normal text-info" href="https://www.tiktok.com/@bobabae.ae" target="_blank">
+                        TikTok
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 d-flex flex-column justify-content-start align-items-center align-items-lg-end text-white mb-6 mb-lg-0">
+                <div class="text-center text-lg-start">
+                  <span class="d-inline-block fs-4 fw-normal mb-4">Help Info</span>
+                  <ul class="list-unstyled">
+                    <li class="mb-3">
+                      <a class=" text-decoration-none fs-18 fw-normal text-info" href="#">
+                        Privacy Policy
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class=" text-decoration-none fs-18 fw-normal text-info" href="#">
+                        Terms & Conditions
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 py-3 py-lg-0">
+          <div class="col-12">
+            <p class="small text-center text-white fs-8 position-relative top-100">@<span class="full-year"></span> BobaBae, All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="stt-btn d-none justify-content-center align-items-center">
+      <img src="./assets/up-arrow.png" alt="up-arrow">
+    </button>
+
+    <!-- SwiperJS Scripts CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Main Scripts -->
+    <script src="./js/main.js"></script>
+
+    <!-- Inline Scripts for Date -->
+    <script>
+      document.querySelector(".full-year").innerHTML = new Date().getFullYear();
+    </script>
+
+    <!-- AOS Scripts CDN -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- AOS Initialization -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
